@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Ex 3 Adiel Perez</title>
+		<link rel="stylesheet" href="includes/style.css">
+	</head>
+<body>
+	<main>
+		<form action=" http://html5-book.co.il/teach/forms/get_form2.php" method="get">
+					<h1>Join Our Members Club</h1>
+
+			Full Name:
+				<input type="text"  required name="fullName"><br>
+			Password:
+				<input type="password" required name="pass"><br>
+			Email:
+				<input type="email" required name="mail"><br>
+			Website:
+				<input type="url" required name="website"><br>
+			Phone Number:
+				<input type="tel" required name="phone"><br>
+			Amount of coffee you drink a day:
+				<input type="number" required name="coffee"><br>
+			The temperature now is:
+				<input type="range" required name="temper"><br>
+			Address:
+				<input type="text" required name="address"><br>
+			Hobbies:
+				<br>
+				<input type="checkbox" name="interests[]" value="Bike"> Bike<br>
+				<input type="checkbox" name="interests[]" value="Football"> Football<br>
+				<input type="checkbox" name="interests[]" value="Playstation"> Playstation<br>
+				<input type="checkbox" name="interests[]" value="T.V"> T.V<br>
+			Gender:
+				<select name="gender">
+				<option value="Male">Male</option>
+				<option value="Female">Female</option>
+				</select><br>
+			Age:
+				<input type="number" min="1" max="100" value="" required name="age">
+				<br><br>
+
+				<button type="submit" value="Submit">Submit</button>
+		</form>
+	</main>
+
+</body>	
+</html>
